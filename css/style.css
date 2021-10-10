@@ -490,7 +490,20 @@ footer {
         height: 300px;
     }
     .container-card .card .helm {
-        transform: scale(0.7) rotate(-28deg) translateY(45px) translateX(-60px);
+        transform: scale(0.7) rotate( 0deg) translateY(40px) translateX(-35px);
+    }
+    .container-card .card:hover .helm {
+        transform: scale(0.7) rotate( 0deg) translateY(40px) translateX(-35px)
+    }
+
+    .container-card .logokyt img {
+        transform: scale(6) translateY(5px);
+        opacity: 100%;
+    }
+
+    .container-card .logoagv img {
+        transform: scale(6) translateY(5px);
+        opacity: 100%;
     }
     .container-card .info {
         transform: scale(1.2) translateY(-30px);
