@@ -7,6 +7,9 @@
     <title>VOO | Original Helmet</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="js/script.js"></script>
 </head>
 <body>
 
@@ -376,23 +379,5 @@
     <footer class="font-fam usr-select">
         <p>&copy;2021 VOO.com</p>
     </footer>
-
-<script>
-    var slideIndex = 0;
-      showSlides();
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        for(i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if(slideIndex > slides.length) {
-          slideIndex = 1
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 4000);
-      }
-</script>
 </body>
 </html>
