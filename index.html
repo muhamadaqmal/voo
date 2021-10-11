@@ -51,22 +51,22 @@
     <!-- Banner -->
     <main class="container-banner slideshow-container">
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner1.png" alt="banner-agv">
+            <img src="img/banner/Banner1.png" alt="banner-agv">
         </div>
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner2.jpg" alt="banner-agv">
+            <img src="img/banner/Banner2.jpg" alt="banner-agv">
         </div>
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner3.jpg" alt="banner-agv">
+            <img src="img/banner/Banner3.jpg" alt="banner-agv">
         </div>
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner4.png" alt="banner-agv">
+            <img src="img/banner/Banner4.png" alt="banner-agv">
         </div>
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner5.jpg" alt="banner-agv">
+            <img src="img/banner/Banner5.jpg" alt="banner-agv">
         </div>
         <div class="banner mySlides fade">
-            <img src="/img/banner/Banner6.png" alt="banner-agv">
+            <img src="img/banner/Banner6.png" alt="banner-agv">
         </div>
         
     </main>
@@ -381,7 +381,21 @@
     </footer>
 
     <script>
-       
+       var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
     </script>
 </body>
 </html>
