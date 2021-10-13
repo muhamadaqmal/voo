@@ -25,10 +25,10 @@
             
             <li>
                 <div class="log flx">
-                    <a class="sign up font-fam" href="#">
+                    <a class="sign up font-fam" href="signup/">
                         SIGN-UP
                     </a>
-                    <a class="sign in font-fam" href="#">
+                    <a class="sign in font-fam" href="signin/login.html">
                         SIGN-IN
                     </a>
                 </div>
@@ -371,7 +371,7 @@
                 </ul>
             </li>
             <li class="li-tittle flx4">
-                <img src="/img/qr code/qr code.svg" alt="" style="width: 150px;">
+                <img src="img/qr code/qr code.svg" alt="" style="width: 150px;">
                 <img src="img/qr code/store.jpeg" alt="" style="width: 200px;">
             </li>
         </ul>
@@ -382,8 +382,8 @@
 
     <script>
        var slideIndex = 0;
-      showSlides();
-      function showSlides() {
+        showSlides();
+        function showSlides() {
         var i;
         var slides = document.getElementsByClassName("mySlides");
         for(i = 0; i < slides.length; i++) {
@@ -394,8 +394,10 @@
           slideIndex = 1
         }
         slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        setTimeout(showSlides, 3000);
       }
+
+      
     </script>
 </body>
 </html>

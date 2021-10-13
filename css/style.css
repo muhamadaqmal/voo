@@ -54,7 +54,7 @@ nav ul input[type=text] {
     align-items: center;
     padding-left: 15px;
     padding-right: 30px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-radius: 15px;
     width: 500px;
     height: 30px;
@@ -67,11 +67,11 @@ nav ul input[type=text] {
 }
 
 .sign:hover:first-child {
-    background-color: blue;
+    background-color: orange;
 }
 
 .sign:hover:last-child {
-    background-color: blue;
+    background-color: orange;
 }
 
 .sign {
@@ -544,4 +544,124 @@ footer {
     .footer {
         margin-top: 900px;
     }
+}
+
+
+
+
+/* Login */
+.full-height {
+    background-image: url(../signin/bg.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position-x: -100px;
+    background-position-y: 50px;
+}
+.nav-login {
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 500px;
+}
+
+.nav-login h1 {
+    margin-left: 50px;
+}
+
+/* MAin */
+.full-scrn {
+    height: 600px;
+}
+
+.form-signin{
+    box-shadow: 0 1px 5px #333;
+    padding: 30px;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    right: 180px;
+    top: 120px;
+    border-radius: 10px;
+}
+.form-signin li:nth-child(1) {
+    text-align: left;
+}
+.form-signin ul {
+    list-style: none;
+}
+
+.form-signin form {
+    margin-top: 20px;
+}
+
+.form-signin ul li input {
+    margin: 12px auto;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #9A9A9A;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-signin ul li input:focus-within {
+    box-shadow: 0px 1px 5px rgb(177, 177, 177);
+    border: 1px solid #eaeaea;
+}
+
+.form-signin input[type=button] {
+    background-color: orange;
+    cursor: pointer;
+}
+
+.form-signin input[type=button]:hover {
+    background-color: rgb(201, 138, 22);
+}
+
+.form-signin .txt {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.form-signin .txt a {
+    text-decoration: none;
+}
+
+.form-signin .txt-ta {
+    color: #333;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.container-log-with {
+    display: flex;
+    justify-content: center;
+}
+
+.container-log-with .log-with {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0px 2px 5px #333;
+    cursor: pointer;
+}
+
+.container-log-with .log-with:hover {
+    background-color: #c9c9c9;
+}
+
+.form-signin ul li:last-child {
+    font-size: 12px;
+}
+
+.abslut {
+    position: absolute;
+    bottom: 0;
 }
