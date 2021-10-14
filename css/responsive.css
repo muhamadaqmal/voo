@@ -1,0 +1,41 @@
+/* BUG */
+@media screen and (max-width: 1265px) {
+    .footer {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 1022px) {
+    .footer {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .full-height {
+        background-size: 100%;
+        background-position-x: 0;
+        background-position-y: 50px;  
+    }
+}
+@media screen and (max-width: 777px) {
+    .footer {
+        margin-top: 0px;
+    }
+
+    .form-signin {
+        right: 30%;
+        left: 20%;
+    }
+
+    .full-height {
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .form-signin {
+        margin: auto;
+        width: 300px;
+    }
+}
+

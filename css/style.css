@@ -551,11 +551,11 @@ footer {
 
 /* Login */
 .full-height {
-    background-image: url(../signin/bg.png);
+    background-image: url(../login/bg.png);
     background-repeat: no-repeat;
     background-size: 1000px;
     background-position-x: -100px;
-    background-position-y: 50px;
+    background-position-y: 50px;    
 }
 .nav-login {
     justify-content: flex-start;
@@ -580,7 +580,7 @@ footer {
     align-items: center;
     text-align: center;
     position: absolute;
-    right: 180px;
+    right: 20%;
     top: 120px;
     border-radius: 10px;
 }
@@ -752,8 +752,4 @@ footer {
 
 .form-signup ul li:last-child {
     font-size: 12px;
-}
-
-@media screen and  (max-width) {
-    
 }
