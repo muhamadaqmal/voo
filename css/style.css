@@ -573,13 +573,12 @@ footer {
 }
 
 .form-signin{
+    width: 400px;
     box-shadow: 0 1px 5px #333;
     padding: 30px;
     background-color: #fff;
     align-items: center;
     text-align: center;
-    width: 400px;
-    height: 450px;
     position: absolute;
     right: 180px;
     top: 120px;
@@ -668,13 +667,12 @@ footer {
 
 /* SIGNUP */
 .form-signup{
+    width: 400px;
     box-shadow: 0 1px 5px #333;
     padding: 30px;
     background-color: #fff;
     align-items: center;
     text-align: center;
-    width: 400px;
-    height: 380px;
     position: absolute;
     right: 180px;
     top: 120px;
@@ -754,4 +752,8 @@ footer {
 
 .form-signup ul li:last-child {
     font-size: 12px;
+}
+
+@media screen and  (max-width) {
+    
 }
