@@ -22,6 +22,19 @@
     -ms-user-select: none;
     user-select: none;
 }
+.sticky {
+    width: 100%;
+    height: 65px;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 8px #333;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 13px;
+    position: fixed;
+    backdrop-filter: blur(2px);
+    z-index: 1;
+}
 
 /* NAVIGASI BAR START HERE */
 nav {
@@ -32,6 +45,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     padding: 13px;
+    transition: 1s;
 }
 
 nav ul {

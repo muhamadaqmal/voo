@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-    <script src="js/script.js"></script>
 </head>
 <body>
 
     <!-- Navigasi -->
-    <nav>
+    <nav id="navbar">
         <div class="logo usr-select">
             <a href="/"><img src="img/logo/LOGO-voo.png" alt="Voo.com" class="logo"></a>
         </div>
@@ -397,7 +395,18 @@
         setTimeout(showSlides, 3000);
       }
 
-      
+      window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("navbar");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+     if (window.pageYOffset > sticky) {
+       header.classList.add("sticky");
+     } else {
+       header.classList.remove("sticky");
+     }
+}
     </script>
 </body>
 </html>
